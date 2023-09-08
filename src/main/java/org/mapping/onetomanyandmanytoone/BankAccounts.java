@@ -46,4 +46,13 @@ public class BankAccounts
     public void setBankName(String bankName) {
         this.bankName = bankName;
     }
+
+    @Override
+    public String toString() {
+        return
+
+                " bankName='" + bankName + '\'' +
+
+                '}';
+    }
 }
