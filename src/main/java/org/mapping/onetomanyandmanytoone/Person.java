@@ -10,7 +10,7 @@ public class Person
     @Column(name="person_id")
     private int personId;
     private String name;
-    @OneToMany(mappedBy = "person",fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "person",fetch = FetchType.EAGER,cascade = CascadeType.ALL)
    // @JoinColumn(name="account_id")
     private List<BankAccounts> bankAccountsList;
 
