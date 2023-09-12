@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dd1aba3-4be2-4a69-84ce-623cfcd0506f" name="Changes" comment="Cascading implemented">
+    <list default="true" id="4dd1aba3-4be2-4a69-84ce-623cfcd0506f" name="Changes" comment="Caching and implememntation of Hibernate using xml file is implemented.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/HQL/HqlPagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HQL/HqlPagination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +51,26 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/HibernMappingUsingXML" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainSubject">
+  <component name="RunManager" selected="Application.CriteriaAPIExample">
     <configuration name="CascadeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Cascade.CascadeDemo" />
       <module name="Hibernate-Basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.Cascade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CriteriaAPIExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.CriteriaAPI.CriteriaAPIExample" />
+      <module name="Hibernate-Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.CriteriaAPI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqlExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.HQL.SqlExample" />
-      <module name="Hibernate-Basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.HQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CriteriaAPIExample" />
         <item itemvalue="Application.MainSubject" />
         <item itemvalue="Application.SecondCache" />
         <item itemvalue="Application.FirstLevel" />
         <item itemvalue="Application.CascadeDemo" />
-        <item itemvalue="Application.SqlExample" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694252633050</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Caching and implememntation of Hibernate using xml file is implemented.">
+      <option name="closed" value="true" />
+      <created>1694498697938</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694498697938</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +186,7 @@
     <MESSAGE value="HQL Pagination is done." />
     <MESSAGE value="sql query writing pattern with example." />
     <MESSAGE value="Cascading implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cascading implemented" />
+    <MESSAGE value="Caching and implememntation of Hibernate using xml file is implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Caching and implememntation of Hibernate using xml file is implemented." />
   </component>
 </project>
