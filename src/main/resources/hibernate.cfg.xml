@@ -11,6 +11,11 @@
         <property name="hbm2ddl.auto">update</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
+        <property name="cache.use_second_level_cache">true</property>
+        <property name="cache.region.factory_class">org.hibernate.cache.ehcache.internal.EhcacheRegionFactory</property>
+        
+        
+        
         <mapping class="org.example.Student"/>
         <mapping class="org.example.Address"/>
         <mapping class="org.mapping.Question"/>
@@ -19,6 +24,8 @@
         <mapping class="org.mapping.onetomanyandmanytoone.Person"/>
         <mapping class="org.mapping.manytomany.Employee"/>
         <mapping class="org.mapping.manytomany.Project"/>
+
+        <mapping resource="Subject.hbm.xml"/>
 
 
 

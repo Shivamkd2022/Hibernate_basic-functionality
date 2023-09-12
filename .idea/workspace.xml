@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dd1aba3-4be2-4a69-84ce-623cfcd0506f" name="Changes" comment="">
+    <list default="true" id="4dd1aba3-4be2-4a69-84ce-623cfcd0506f" name="Changes" comment="Cascading implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mapping/onetomanyandmanytoone/BankAccounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mapping/onetomanyandmanytoone/BankAccounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/HQL/HqlPagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/HQL/HqlPagination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +52,16 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/HibernMappingUsingXML" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HqlExample">
-    <configuration name="EmbedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.EmbedDemo" />
+  <component name="RunManager" selected="Application.MainSubject">
+    <configuration name="CascadeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Cascade.CascadeDemo" />
       <module name="Hibernate-Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.Cascade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +69,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HqlExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.HQL.HqlExample" />
+    <configuration name="FirstLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Caching.FirstLevel" />
+      <module name="Hibernate-Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Caching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainSubject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.HibernMappingUsingXML.MainSubject" />
+      <module name="Hibernate-Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.HibernMappingUsingXML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Caching.SecondCache" />
+      <module name="Hibernate-Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Caching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqlExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.HQL.SqlExample" />
       <module name="Hibernate-Basic" />
       <extension name="coverage">
         <pattern>
@@ -78,52 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainManytoMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mapping.manytomany.MainManytoMany" />
-      <module name="Hibernate-Basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mapping.manytomany.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainOneToMany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.mapping.onetomanyandmanytoone.MainOneToMany" />
-      <module name="Hibernate-Basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mapping.onetomanyandmanytoone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ObjectState.StateDemo" />
-      <module name="Hibernate-Basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ObjectState.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HqlExample" />
-        <item itemvalue="Application.EmbedDemo" />
-        <item itemvalue="Application.StateDemo" />
-        <item itemvalue="Application.MainOneToMany" />
-        <item itemvalue="Application.MainManytoMany" />
+        <item itemvalue="Application.MainSubject" />
+        <item itemvalue="Application.SecondCache" />
+        <item itemvalue="Application.FirstLevel" />
+        <item itemvalue="Application.CascadeDemo" />
+        <item itemvalue="Application.SqlExample" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +140,31 @@
       <option name="presentableId" value="Default" />
       <updated>1692969419179</updated>
     </task>
+    <task id="LOCAL-00001" summary="HQL Pagination is done.">
+      <option name="closed" value="true" />
+      <created>1694178004808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694178004808</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sql query writing pattern with example.">
+      <option name="closed" value="true" />
+      <created>1694248323259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694248323259</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cascading implemented">
+      <option name="closed" value="true" />
+      <created>1694252633050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694252633050</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +177,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HQL Pagination is done." />
+    <MESSAGE value="sql query writing pattern with example." />
+    <MESSAGE value="Cascading implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cascading implemented" />
   </component>
 </project>

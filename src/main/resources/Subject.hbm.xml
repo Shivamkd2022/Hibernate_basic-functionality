@@ -1,0 +1,16 @@
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <!-- Your mapping definitions go here -->
+    <class name="org.HibernMappingUsingXML.Subject" table="Subject">
+        <id name="subId" column="subject_id">
+        </id>
+        <property name="subName" column="subject_name" type="string"></property>
+        <property name="department" column="subject_department" type="string"></property>
+        <property name="instructor" column="subject_instructor" type="string"></property>
+        
+
+    </class>
+
+</hibernate-mapping>

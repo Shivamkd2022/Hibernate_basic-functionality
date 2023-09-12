@@ -1,9 +1,15 @@
 package org.example;
 
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
+import javax.persistence.Cacheable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
+@Cacheable
+@Cache(usage = CacheConcurrencyStrategy.READ_ONLY )
 public class Student
 {
     @Id
@@ -59,6 +65,7 @@ public class Student
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", city='" + city + '\'' +
+                ", certificate details='" + certi + '\'' +
                 '}';
     }
 }

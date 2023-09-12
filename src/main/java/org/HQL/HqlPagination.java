@@ -15,7 +15,7 @@ public class HqlPagination
     {
         SessionFactory factory= new Configuration().configure().buildSessionFactory();
         Session session = factory.openSession();
-        Query query = session.createQuery("from Student");
+        Query query = session.createQuery("from Student"); // this is HQL Query.
 
         // implementing pagination using Hibernate
 
